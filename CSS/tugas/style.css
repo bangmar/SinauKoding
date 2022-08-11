@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+.container {
+    margin: 20px 200px;
+}
+
+
+/* header */
+
+header {
+    margin-bottom: 25px;
+    padding: 0 20px;
+}
+
+h1.titlePage {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+ul.link {
+    display: flex;
+    gap: 20px;
+}
+
+ul.link .links {
+    list-style: none;
+    position: relative;
+}
+
+ul.link .links::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    background-color: rgb(33, 33, 33);
+    right: -10px;
+}
+
+ul.link .links:last-child:after {
+    background-color: rgba(33, 33, 33, 0);
+}
+
+ul.link .links a {
+    /* padding: 10px; */
+    text-decoration: none;
+    color: rgb(49, 71, 211);
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+ul.link .links a:hover {
+    background-color: rgb(43, 110, 169);
+    color: #fff;
+    padding: 10px;
+}
+
+
+/* hero */
+
+.heroImg {
+    height: 500px;
+    background-image: url('./heroImg.jpg');
+    background-size: cover;
+    margin-bottom: 25px;
+}
+
+
+/* article */
+
+.article {
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+
+.article .title {
+    margin-bottom: 50px;
+}
+
+.article .title p {
+    font-size: 14px;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+
+/* footer */
+
+footer {
+    background-color: rgb(33, 33, 33);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-weight: bold;
+}
+
+footer p span {
+    font-weight: lighter;
+}

@@ -1,0 +1,60 @@
+body {
+    color: #fff;
+}
+
+h1 {
+    background: rgb(80, 53, 255);
+    padding: 10px;
+}
+
+div {
+    background: rgb(59, 40, 184);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+div.containSpan {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+span {
+    border: 5px solid black;
+    box-sizing: border-box;
+    background: rgb(42, 29, 130);
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.kotak1 {
+    background: red;
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+}
+
+.kotak2 {
+    background: green;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    margin-left: auto;
+}
+
+.kotak3 {
+    background: blue;
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+    box-shadow: 2px 10px 20px rgba(0, 0, 0, 0.784);
+    margin: auto;
+}
+
+.containFLoat .left img {
+    height: 70px;
+    float: right;
+}
