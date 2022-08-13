@@ -1,0 +1,278 @@
+:root {
+    --blueColor: #3157b0;
+    --blueBtn: #22428c;
+    --greyColor: #EBEBEB;
+    --whiteColor: #e9e9e9;
+    --blackColor: rgb(24, 24, 24);
+}
+
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* top */
+
+.my-top {
+    position: relative;
+}
+
+.blue-act {
+    height: 25px;
+    background-color: var(--blueColor);
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.grey-act {
+    height: 75px;
+    background-color: var(--greyColor);
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.option-btn {
+    background-color: var(--blueBtn);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 100px;
+    height: 40px;
+    z-index: 999;
+}
+
+.option-btn:hover,
+.main-btn:hover {
+    background-color: var(--blueColor) !important;
+}
+
+.option-btn img {
+    height: 10px;
+}
+
+
+/* header */
+
+.my-header {
+    padding-top: 100px;
+}
+
+.heading {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    position: relative;
+    top: -50px;
+}
+
+.page-title {
+    color: var(--blueBtn);
+}
+
+.page-title p {
+    letter-spacing: 0.7px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.page-title h3 {
+    font-weight: bolder;
+}
+
+
+/* banner */
+
+.my-banner {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.banner-img {
+    background-image: url(../assets/slides.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 65vh;
+    position: relative;
+}
+
+.main-btn {
+    background-color: var(--blueBtn);
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 7px;
+    padding: 10px 30px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px 4px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: 10px 10px 25px 4px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 10px 10px 25px 4px rgba(0, 0, 0, 0.24);
+}
+
+.banner-img .main-btn {
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+}
+
+
+/* service */
+
+.my-service {
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.my-service .heading-txt {
+    margin-bottom: 50px;
+}
+
+.heading-txt h3 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.heading-txt h3 span {
+    color: var(--blueBtn);
+    font-weight: bold;
+}
+
+.services {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    justify-content: end;
+}
+
+.services img {
+    height: 45px;
+}
+
+.services p span {
+    font-weight: bold;
+}
+
+
+/* about */
+
+.my-about {
+    background-color: #3157b00f;
+    padding: 25px 50px;
+}
+
+.my-about .heading-txt {
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.my-about p {
+    padding: 0 200px;
+}
+
+.my-about .main-btn {
+    margin: 25px;
+    letter-spacing: 3px;
+}
+
+
+/* contact */
+
+.my-contact {
+    padding-top: 100px;
+}
+
+.my-contact .heading-txt p {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.my-contact .heading-txt {
+    margin-bottom: 50px;
+}
+
+.my-contact label {
+    font-weight: bold;
+}
+
+.my-contact .main-btn {
+    padding: 8px 75px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    box-shadow: none;
+    margin-bottom: 25px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.sk {
+    color: var(--blueColor);
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.agreement p {
+    font-size: 14px;
+}
+
+.note p {
+    margin: 0;
+    font-size: 14px;
+    color: rgb(130, 130, 130);
+}
+
+
+/* steps */
+
+.my-step {
+    background-color: var(--greyColor);
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.my-step img {
+    width: 125vh;
+    margin-top: 50px;
+    padding-bottom: 25px;
+}
+
+
+/* footer */
+
+.my-footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: var(--blueColor);
+}
+
+.my-footer p {
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+    color: var(--whiteColor);
+}

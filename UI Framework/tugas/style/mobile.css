@@ -1,0 +1,44 @@
+@media screen and (max-width:768px) {
+    .option-btn {
+        margin-right: 10px;
+    }
+    .my-header {
+        padding-top: 150px;
+    }
+    .page-title p {
+        letter-spacing: 0.1px;
+        font-size: 14px;
+    }
+    .page-title h3 {
+        font-size: 1.5em;
+    }
+    .banner-img {
+        height: 20vh;
+    }
+    .banner-img .main-btn {
+        right: 0;
+        bottom: -70px;
+        width: 40%;
+        font-size: 14px;
+    }
+    .my-service {
+        margin-top: 100px;
+    }
+    .my-service .heading-txt {
+        margin-bottom: 25px;
+    }
+    .heading-txt h3 {
+        font-size: 24px;
+    }
+    .my-about p {
+        padding: 0 10px;
+    }
+    .my-about .main-btn {
+        font-size: 14px;
+    }
+    .my-step img {
+        width: 100%;
+        margin-top: 50px;
+        padding-bottom: 25px;
+    }
+}
